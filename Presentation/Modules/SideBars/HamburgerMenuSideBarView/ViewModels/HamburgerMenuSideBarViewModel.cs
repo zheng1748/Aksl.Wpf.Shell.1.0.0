@@ -131,7 +131,7 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
                     void SetSelectedHamburgerMenuItem()
                     {
                         var hamburgerMenuSideBarItemViewModel = AllLeafHamburgerMenuSideBarItems.FirstOrDefault(hmi => hmi.Name.Equals(currentTabItem.Name, StringComparison.InvariantCultureIgnoreCase) ||
-                                                                                                                hmi.Title.Equals(currentTabItem.Title, StringComparison.InvariantCultureIgnoreCase));
+                                                                                                                       hmi.Title.Equals(currentTabItem.Title, StringComparison.InvariantCultureIgnoreCase));
                         if (hamburgerMenuSideBarItemViewModel is not null)
                         {
                             if (hamburgerMenuSideBarItemViewModel != SelectedHamburgerMenuSideBarItem)
