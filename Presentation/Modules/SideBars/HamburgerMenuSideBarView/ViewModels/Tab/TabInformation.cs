@@ -1,0 +1,26 @@
+﻿using System.Windows;
+
+namespace Aksl.Modules.HamburgerMenuSideBar
+{
+    public class TabInformation
+    {
+        #region Constructors
+        public TabInformation()
+        {
+        }
+        #endregion
+
+        #region Properties
+
+        public string Name { get; set; }
+
+        public string Title { get; set; }
+
+        public string IconKind { get; set; }
+
+        public string ViewName { get; set; }
+
+        public DependencyObject ViewElement { get; set; }
+        #endregion
+    }
+}

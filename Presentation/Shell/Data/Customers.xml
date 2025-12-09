@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItem Id="0"
+		  Name="Customer"
+		  Title="Root"
+		  Level="0" >
+	<MenuItem Id="1"
+			  Name="Customers"
+			  Title="Customers"
+			  Level="1"
+			  ItemType="Item"
+			  ModuleName=""
+			  ViewName=""
+			  RequrePermissons="">
+		<MenuItem Id="5"
+				  Name="DataGridCustomer"
+				  Title="DataGrid Customers"
+				  Level="2"
+				  IsCacheable="True"
+				  IconKind="DataMatrix"
+				  ItemType="Item"
+				  ModuleName="DataGridCustomerModule "
+				  ViewName="Aksl.Modules.DataGridCustomer.Views.CustomerHubDataGridView,Aksl.Modules.DataGridCustomer"
+				  RequrePermissons=""/>
+		<MenuItem Id="5"
+				  Name="ListViewCustomer"
+				  Title="ListView Customers"
+				  Level="2"
+				  IsCacheable="True"
+				  IconKind="Doctor"
+				  ItemType="Item"
+				  ModuleName="ListViewCustomerModule "
+				  ViewName="Aksl.Modules.ListViewCustomer.Views.CustomerHubListView,Aksl.Modules.ListViewCustomer"
+				  RequrePermissons=""/>
+	</MenuItem>
+</MenuItem>
+
+
