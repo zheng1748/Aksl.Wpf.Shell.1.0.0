@@ -103,7 +103,7 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
                 {
                     if (SelectedHamburgerMenuSideBarItem is not null)
                     {
-                SelectedHamburgerMenuSideBarItem.IsSelected = false;
+                        SelectedHamburgerMenuSideBarItem.IsSelected = false;
                     }
 
                     SelectedHamburgerMenuSideBarItem = null;
@@ -187,7 +187,7 @@ namespace Aksl.Modules.HamburgerMenuSideBar.ViewModels
 
             async Task RecursiveSubMenuItem(MenuItem currentMenuItem)
             {
-                if (!AnyEqualsMenuItems(travelMenuItems,currentMenuItem) && IsLeaf(currentMenuItem) && HasTitle(currentMenuItem) && !HasNavigationName(currentMenuItem))
+                if (!AnyEqualsMenuItems(travelMenuItems, currentMenuItem) && IsLeaf(currentMenuItem) && HasTitle(currentMenuItem) && !HasNavigationName(currentMenuItem))
                 {
                     leafHamburgerMenuSideBarItemViewModels.Add(new(_eventAggregator, currentMenuItem));
                     travelMenuItems.Add(currentMenuItem);
