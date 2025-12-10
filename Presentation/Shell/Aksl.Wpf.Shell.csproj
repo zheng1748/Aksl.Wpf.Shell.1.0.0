@@ -112,7 +112,7 @@
     <ProjectReference Include="..\Modules\Industry\CoolingTowerView\CoolingTowerView.csproj" />
     <ProjectReference Include="..\Modules\Industry\PipelineView\PipelineView.csproj" />
     <ProjectReference Include="..\Modules\Industry\ThermometerrView\ThermometerView.csproj" />
-    <ProjectReference Include="..\Modules\SideBars\HamburgerMenuSideBarView\HamburgerMenuSideBarView.csproj" />
+    <ProjectReference Include="..\Modules\SideBars\HamburgerMenuSideBar\HamburgerMenuSideBarView.csproj" />
   </ItemGroup>
 
   <!--<ItemGroup>
