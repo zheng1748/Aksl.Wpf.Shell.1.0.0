@@ -16,14 +16,8 @@
         WindowStartupLocation="CenterScreen"
         xmlns:views="clr-namespace:Aksl.Modules.Shell.Views"
         prism:ViewModelLocator.AutoWireViewModel="True">
-    <!--<WindowChrome.WindowChrome>
-        <WindowChrome CaptionHeight="30"
-                      GlassFrameThickness="0"
-                      NonClientFrameEdges="None"
-                      ResizeBorderThickness="0"
-                      CornerRadius="2" />
-    </WindowChrome.WindowChrome>-->
     <Window.Resources>
+        
         <Storyboard x:Key="inTransition">
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00"
                                            Storyboard.TargetName="contentRegion"
