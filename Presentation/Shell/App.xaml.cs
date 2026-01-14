@@ -38,6 +38,7 @@ using Aksl.Modules.Pipeline;
 using Aksl.Modules.Thermometer;
 using Aksl.Modules.CoolingTower;
 using Aksl.Modules.AirCompresser;
+using Aksl.Modules.HamburgerMenuNavigationSideBarTab;
 
 namespace Aksl.Wpf.Unity
 {
@@ -136,6 +137,8 @@ namespace Aksl.Wpf.Unity
                 var eventAggregator = Container.Resolve<IEventAggregator>();
 
                 _ = eventAggregator.GetEvent<OnBuildHamburgerMenuSideBarTabWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuNavigationSideBarTabWorkspaceViewEvent>();
+                _ = eventAggregator.GetEvent<OnBuildHamburgerMenuTreeSideBarTabWorkspaceViewEvent>();
             }
             catch (Exception ex)
             {
@@ -158,6 +161,7 @@ namespace Aksl.Wpf.Unity
             _ = moduleCatalog.AddModule(nameof(AirCompresserModule), typeof(AirCompresserModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
 
             _ = moduleCatalog.AddModule(typeof(HamburgerMenuSideBarTabModule).Name, typeof(HamburgerMenuSideBarTabModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
+            _ = moduleCatalog.AddModule(typeof(HamburgerMenuNavigationSideBarTabModule).Name, typeof(HamburgerMenuNavigationSideBarTabModule).AssemblyQualifiedName, InitializationMode.WhenAvailable);
             _ = moduleCatalog.AddModule(typeof(ShellModule).Name, typeof(ShellModule).AssemblyQualifiedName, InitializationMode.WhenAvailable, typeof(HamburgerMenuSideBarTabModule).Name);
         }
 

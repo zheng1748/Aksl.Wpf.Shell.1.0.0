@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 207980957784
 ThermometerHubView.xaml;ThermometerView.xaml;
 
-True
+False
 

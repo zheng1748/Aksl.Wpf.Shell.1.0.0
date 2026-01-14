@@ -37,22 +37,22 @@ namespace Aksl.Infrastructure
             }
         }
 
-        public async Task<MenuItem> GetMenuAsync(string menuName)
+        public Task<MenuItem> GetMenuAsync(string menuName)
         {
-            //var rootMenuItem = _rootMenus.FirstOrDefault(r => !string.IsNullOrEmpty(r.Name) && r.Name.Equals(menuName, StringComparison.InvariantCultureIgnoreCase));
+            var rootMenuItem = _rootMenus.FirstOrDefault(r => !string.IsNullOrEmpty(r.Name) && r.Name.Equals(menuName, StringComparison.InvariantCultureIgnoreCase));
 
-            //return Task.FromResult(rootMenuItem);
-            List<MenuItem> rootMenus=new();
+            return Task.FromResult(rootMenuItem);
+            //List<MenuItem> rootMenus=new();
 
-            foreach (var menuFilePath in _menuFilePaths)
-            {
-                var rootMenu = await _menuProvider.BuildMenuAsync(menuFilePath);
+            //foreach (var menuFilePath in _menuFilePaths)
+            //{
+            //    var rootMenu = await _menuProvider.BuildMenuAsync(menuFilePath);
 
-                rootMenus.Add(rootMenu);
-            }
+            //    rootMenus.Add(rootMenu);
+            //}
 
-            var rootMenuItem = rootMenus.FirstOrDefault(r => !string.IsNullOrEmpty(r.Name) && r.Name.Equals(menuName, StringComparison.InvariantCultureIgnoreCase));
-            return rootMenuItem;
+            //var rootMenuItem = rootMenus.FirstOrDefault(r => !string.IsNullOrEmpty(r.Name) && r.Name.Equals(menuName, StringComparison.InvariantCultureIgnoreCase));
+            //return rootMenuItem;
         }
         #endregion
     }

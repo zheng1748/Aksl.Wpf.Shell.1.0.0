@@ -1019,6 +1019,30 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "Aksl.Modules.HamburgerMenuNavigationSideBarTab/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0",
+          "Unity": "5.11.10"
+        },
+        "compile": {
+          "bin/placeholder/Aksl.Modules.HamburgerMenuNavigationSideBarTab.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aksl.Modules.HamburgerMenuNavigationSideBarTab.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Aksl.Modules.HamburgerMenuSideBarTab/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1038,6 +1062,29 @@
         },
         "runtime": {
           "bin/placeholder/Aksl.Modules.HamburgerMenuSideBarTab.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Aksl.Modules.HamburgerMenuTreeSideBarTab/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aksl.Modules.HamburgerMenuTreeSideBarTab.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aksl.Modules.HamburgerMenuTreeSideBarTab.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -2914,10 +2961,20 @@
       "path": "../Modules/Industry/CoolingTowerView/CoolingTowerView.csproj",
       "msbuildProject": "../Modules/Industry/CoolingTowerView/CoolingTowerView.csproj"
     },
+    "Aksl.Modules.HamburgerMenuNavigationSideBarTab/1.0.0": {
+      "type": "project",
+      "path": "../Modules/SideBars/HamburgerMenuNavigationSideBarTab/HamburgerMenuNavigationSideBarTab.csproj",
+      "msbuildProject": "../Modules/SideBars/HamburgerMenuNavigationSideBarTab/HamburgerMenuNavigationSideBarTab.csproj"
+    },
     "Aksl.Modules.HamburgerMenuSideBarTab/1.0.0": {
       "type": "project",
       "path": "../Modules/SideBars/HamburgerMenuSideBarTab/HamburgerMenuSideBarTab.csproj",
       "msbuildProject": "../Modules/SideBars/HamburgerMenuSideBarTab/HamburgerMenuSideBarTab.csproj"
+    },
+    "Aksl.Modules.HamburgerMenuTreeSideBarTab/1.0.0": {
+      "type": "project",
+      "path": "../Modules/SideBars/HamburgerMenuTreeSideBarTab/HamburgerMenuTreeSideBarTab.csproj",
+      "msbuildProject": "../Modules/SideBars/HamburgerMenuTreeSideBarTab/HamburgerMenuTreeSideBarTab.csproj"
     },
     "Aksl.Modules.Home/1.0.0": {
       "type": "project",
@@ -2966,7 +3023,9 @@
       "Aksl.Modules.Account >= 1.0.0",
       "Aksl.Modules.AirCompresser >= 1.0.0",
       "Aksl.Modules.CoolingTower >= 1.0.0",
+      "Aksl.Modules.HamburgerMenuNavigationSideBarTab >= 1.0.0",
       "Aksl.Modules.HamburgerMenuSideBarTab >= 1.0.0",
+      "Aksl.Modules.HamburgerMenuTreeSideBarTab >= 1.0.0",
       "Aksl.Modules.Home >= 1.0.0",
       "Aksl.Modules.Pipeline >= 1.0.0",
       "Aksl.Modules.Thermometer >= 1.0.0",
@@ -3059,8 +3118,14 @@
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\Industry\\ThermometerrView\\ThermometerView.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\Industry\\ThermometerrView\\ThermometerView.csproj"
             },
+            "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuNavigationSideBarTab\\HamburgerMenuNavigationSideBarTab.csproj": {
+              "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuNavigationSideBarTab\\HamburgerMenuNavigationSideBarTab.csproj"
+            },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuSideBarTab\\HamburgerMenuSideBarTab.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuSideBarTab\\HamburgerMenuSideBarTab.csproj"
+            },
+            "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuTreeSideBarTab\\HamburgerMenuTreeSideBarTab.csproj": {
+              "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Presentation\\Modules\\SideBars\\HamburgerMenuTreeSideBarTab\\HamburgerMenuTreeSideBarTab.csproj"
             },
             "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj": {
               "projectPath": "C:\\Users\\zheng\\Documents\\GitHub\\Aksl.Wpf.Shell.1.0.0\\Toolkits\\Aksl.Toolkit.Controls\\Aksl.Toolkit.Controls.csproj"

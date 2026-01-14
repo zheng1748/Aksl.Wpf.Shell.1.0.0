@@ -12,7 +12,9 @@
           "Aksl.Modules.Account": "1.0.0",
           "Aksl.Modules.AirCompresser": "1.0.0",
           "Aksl.Modules.CoolingTower": "1.0.0",
+          "Aksl.Modules.HamburgerMenuNavigationSideBarTab": "1.0.0",
           "Aksl.Modules.HamburgerMenuSideBarTab": "1.0.0",
+          "Aksl.Modules.HamburgerMenuTreeSideBarTab": "1.0.0",
           "Aksl.Modules.Home": "1.0.0",
           "Aksl.Modules.Pipeline": "1.0.0",
           "Aksl.Modules.Thermometer": "1.0.0",
@@ -53,7 +55,9 @@
           "Aksl.Modules.Account.Reference": "1.0.0.0",
           "Aksl.Modules.AirCompresser.Reference": "1.0.0.0",
           "Aksl.Modules.CoolingTower.Reference": "1.0.0.0",
+          "Aksl.Modules.HamburgerMenuNavigationSideBarTab.Reference": "1.0.0.0",
           "Aksl.Modules.HamburgerMenuSideBarTab.Reference": "1.0.0.0",
+          "Aksl.Modules.HamburgerMenuTreeSideBarTab.Reference": "1.0.0.0",
           "Aksl.Modules.Home.Reference": "1.0.0.0",
           "Aksl.Modules.Pipeline.Reference": "1.0.0.0",
           "Aksl.Modules.Thermometer.Reference": "1.0.0.0",
@@ -600,6 +604,22 @@
           "Aksl.Modules.CoolingTower.dll": {}
         }
       },
+      "Aksl.Modules.HamburgerMenuNavigationSideBarTab/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0",
+          "Unity": "5.11.10"
+        },
+        "runtime": {
+          "Aksl.Modules.HamburgerMenuNavigationSideBarTab.dll": {}
+        }
+      },
       "Aksl.Modules.HamburgerMenuSideBarTab/1.0.0": {
         "dependencies": {
           "Aksl.Infrastructure": "1.0.0",
@@ -614,6 +634,21 @@
         },
         "runtime": {
           "Aksl.Modules.HamburgerMenuSideBarTab.dll": {}
+        }
+      },
+      "Aksl.Modules.HamburgerMenuTreeSideBarTab/1.0.0": {
+        "dependencies": {
+          "Aksl.Infrastructure": "1.0.0",
+          "Aksl.Toolkit": "1.0.0",
+          "Aksl.Toolkit.Controls": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "Prism.Core": "1.0.0",
+          "Prism.Unity": "1.0.0",
+          "Prism.Wpf": "1.0.0"
+        },
+        "runtime": {
+          "Aksl.Modules.HamburgerMenuTreeSideBarTab.dll": {}
         }
       },
       "Aksl.Modules.Home/1.0.0": {
@@ -719,9 +754,25 @@
           }
         }
       },
+      "Aksl.Modules.HamburgerMenuNavigationSideBarTab.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.HamburgerMenuNavigationSideBarTab.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Aksl.Modules.HamburgerMenuSideBarTab.Reference/1.0.0.0": {
         "runtime": {
           "Aksl.Modules.HamburgerMenuSideBarTab.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aksl.Modules.HamburgerMenuTreeSideBarTab.Reference/1.0.0.0": {
+        "runtime": {
+          "Aksl.Modules.HamburgerMenuTreeSideBarTab.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1165,7 +1216,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Aksl.Modules.HamburgerMenuNavigationSideBarTab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Aksl.Modules.HamburgerMenuSideBarTab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.HamburgerMenuTreeSideBarTab/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1225,7 +1286,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Aksl.Modules.HamburgerMenuNavigationSideBarTab.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Aksl.Modules.HamburgerMenuSideBarTab.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aksl.Modules.HamburgerMenuTreeSideBarTab.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
