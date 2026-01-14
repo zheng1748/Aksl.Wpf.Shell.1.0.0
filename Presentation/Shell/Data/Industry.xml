@@ -9,6 +9,7 @@
 			  Level="1"
 			  ItemType="Item"
 			  IconKind="LineScan"
+			  IsCacheable="True"
 			  ModuleName="HamburgerMenuSideBarTabModule"
 		      ViewName="Aksl.Modules.HamburgerMenuSideBarTab.Views.HamburgerMenuSideBarTabHubView,Aksl.Modules.HamburgerMenuSideBarTab"
 		      IsNextNavigation="False"
